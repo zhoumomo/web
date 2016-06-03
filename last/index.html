@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <base href="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta name="format-detection" content="telephone=no, address=no, email=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script src="js/lib/viewport.js"></script>    
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script type="text/javascript">
+    var outlet,openid,phone,flag,deadline;
+    </script>
+</head>
+<body>
+<div class="loading loading-x2 loading-overlay"></div>
+<div class="wrapper">    
+    <div id="index">
+        <div class="reserve">
+            <div class="text"><img src="images/img1.png" alt=""></div>
+            <div class="form">
+                <div class="name"><span>姓名</span><input type="text" name="name"></div>
+                <div class="mobile"><span>电话</span><input type="text" name="mobile"></div>
+                <div class="shop">
+                    <span>选择门店</span>
+                    <select class="pro">
+                        <option>选择省份</option>
+                    </select>
+                    <select class="city">
+                        <option>选择城市</option>
+                    </select>
+                </div>
+            </div>
+            <div class="btns">
+                <a href="javascript:;" class="btn btn1"><img src="images/btn1.png" alt=""></a>
+                <a href="javascript:;" class="btn btn2"><img src="images/btn2.png" alt=""></a>
+            </div>
+            <div class="hotline"><img src="images/txt1.png" alt=""></div>
+        </div>
+        <div class="success hidden">
+            <div class="text"><img src="images/img2.png" alt=""></div>
+            <div class="qrcode"><img src="images/qrcode.jpg" alt=""></div>
+            <div class="hotline"><img src="images/txt1.png" alt=""></div>
+        </div>
+    </div>
+    <div id="rule" class="pop">
+        
+    </div>   
+</div>
+<script src="js/lib/jweixin-1.0.0.js"></script>
+<script src="dist/js/common.js"></script>
+<script src="dist/js/index.js"></script>
+</body>
+</html>
